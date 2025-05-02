@@ -1,5 +1,9 @@
 {
-  "rewrites": [
-    { "source": "/api/v1/account-inquiry", "destination": "/api/proxy.js" }
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/v1/account-inquiry",
+      "dest": "/api/v1/account-inquiry.js"
+    }
   ]
 }
